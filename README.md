@@ -178,12 +178,5 @@ Click export buttons to download data as CSV:
 
 **Arya Jathar**  
 Built this app by integrating React + FastAPI with the help of ChatGPT & Claude.  
-Understands all components, calculations, and design decisions.
-
----
-
-##  Disclaimer
-- Price data comes from Yahoo Finance and may have slight delays.
----
-
+Strives to understand all components, calculations, and design decisions made during the production and deployment of this website.
 
