@@ -127,7 +127,7 @@ Perfect for offline analysis or showcasing.
 
 ### 1️⃣ Launch the App
 
-Visit: [Live Site](https://nifty-screener-frontend-qoiw.vercel.app)  
+Visit: [Live Site](https://nifty-screener-frontend-qoiw-b8advj7s2-arya-jathars-projects.vercel.app/)  
 (Frontend deployed on Vercel)
 
 ### 2️⃣ Select a Stock
