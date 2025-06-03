@@ -36,7 +36,7 @@ function App() {
       if (portfolio.length === 0) return;
       const tickers = portfolio.map(p => p.ticker).join(',');
       try {
-        const res = await fetch(`http://127.0.0.1:8000/get_prices?tickers=${tickers}`);
+        const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/get_prices?tickers=${tickers}`);
         const data = await res.json();
         setLivePrices(data);
       } catch (err) {
@@ -49,7 +49,7 @@ function App() {
   const fetchStockData = async () => {
     if (!selectedStock) return alert("Please select a stock!");
     try {
-      const res = await fetch(`http://127.0.0.1:8000/get_prices?tickers=${selectedStock}`);
+      const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/get_stock_data?ticker=${selectedStock}`);
       const data = await res.json();
       setStockData(data);
     } catch (err) {
