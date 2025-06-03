@@ -37,7 +37,7 @@ function App() {
       if (portfolio.length === 0) return;
       const tickers = portfolio.map(p => p.ticker).join(',');
       try {
-        const res = await fetch(`${API_BASE_URL}/get_prices?tickers=${tickers}`);
+        const res = await fetch(`${API_BASE_URL}/get_prices?tickers=${selectedStock}`);
         const data = await res.json();
         setLivePrices(data);
       } catch (err) {
