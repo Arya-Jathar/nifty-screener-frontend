@@ -179,25 +179,25 @@ Click export buttons to download data as CSV:
 ## 📸 Screenshots
 
 ###  Stock Selection
-![Stock Selection](screenshots/stock-selection.png)
+![Stock Selection](stock-selection.png)
 
 ###  Buy Signal Triggered
-![Buy Signal](screenshots/buy-signal.png)
+![Buy Signal](buy-signal.png)
 
 ### 💼 Portfolio Table
-![Portfolio Table](screenshots/portfolio.png)
+![Portfolio Table](portfolio.png)
 
 ###  Transaction History
-![Trade History](screenshots/transaction-history.png)
+![Trade History](transaction-history.png)
 
 ###  Portfolio Metrics
-![Portfolio Metrics](screenshots/portfolio-metrics.png)
+![Portfolio Metrics](portfolio-metrics.png)
 
 ###  Dark Mode
-![Dark Mode](screenshots/dark-theme.png)
+![Dark Mode](dark-theme.png)
 
 ###  Trade Excel
-![Trade Excel](screenshots/trade-excel.png)
+![Trade Excel](trade-excel.png)
 
 
 ##  Author & Credits
