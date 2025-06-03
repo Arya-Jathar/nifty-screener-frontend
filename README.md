@@ -75,14 +75,14 @@ The user portfolio updates in real-time and includes:
 
 Real-time portfolio analysis is shown at the bottom:
 
-- ✅ **Total Portfolio Value** (capital + unrealized gains)
-- 📗 **Realized P&L** (from closed trades)
-- 📘 **Unrealized P&L** (from open positions)
-- ⭐ **Sharpe Ratio** (reward/risk of trades)
-- ⛔ **Max Drawdown** (worst portfolio decline)
-- ✅ **Win Rate %** (number of profitable exits)
-- 🥇 **Best Performing Stock**
-- 💔 **Worst Performing Stock**
+- 1. **Total Portfolio Value** (capital + unrealized gains)
+- 2. **Realized P&L** (from closed trades)
+- 3. **Unrealized P&L** (from open positions)
+- 4. **Sharpe Ratio** (reward/risk of trades)
+- 5. **Max Drawdown** (worst portfolio decline)
+- 6. **Win Rate %** (number of profitable exits)
+- 7. **Best Performing Stock**
+- 8. **Worst Performing Stock**
 
 ---
 
@@ -104,26 +104,26 @@ Every trade is logged in a clean, paginated table with:
 
 ---
 
-### 🔄 Export to CSV
+###  Export to CSV
 
 Users can download:
-- 📤 Portfolio as `portfolio.csv`
-- 📤 Transaction history as `trade_history.csv`
-- 📤 Portfolio metrics as `portfolio_metrics.csv`
+-  Portfolio as `portfolio.csv`
+-  Transaction history as `trade_history.csv`
+-  Portfolio metrics as `portfolio_metrics.csv`
 
 Perfect for offline analysis or showcasing.
 
 ---
 
-### 🌙 Additional UI Features
+###  Additional UI Features
 
-- ✅ **Dark Mode / Light Mode toggle**
-- ✅ Fully responsive for **mobile and desktop**
-- ✅ Animations, gradients, and modern UI using **Tailwind CSS**
+-  **Dark Mode / Light Mode toggle**
+-  Fully responsive for **mobile and desktop**
+-  Animations, gradients, and modern UI using **Tailwind CSS**
 
 ---
 
-## 🧑‍💻 How to Use This Website (User Manual)
+##  How to Use This Website (User Manual)
 
 ### 1️⃣ Launch the App
 
