@@ -49,7 +49,7 @@ function App() {
   const fetchStockData = async () => {
     if (!selectedStock) return alert("Please select a stock!");
     try {
-      const res = await fetch(`http://127.0.0.1:8000/get_prices?tickers=${tickers}`);
+      const res = await fetch(`http://127.0.0.1:8000/get_prices?tickers=${selectedStock}`);
       const data = await res.json();
       setStockData(data);
     } catch (err) {
