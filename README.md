@@ -194,7 +194,7 @@ Click export buttons to download data as CSV:
 ###  Dark Mode
 ![Dark Mode](dark-theme.png)
 
-###  Trade Excel
+###  Excel report of transaction history
 ![Trade Excel](trade-excel.png)
 
 
