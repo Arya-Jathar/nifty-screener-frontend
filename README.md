@@ -183,7 +183,7 @@ Click export buttons to download data as CSV:
 ![Buy Signal](buy-signal.png)
 
 ### 💼 Portfolio Table
-![Portfolio Table](portfolio.png)
+![Portfolio Table](Portfolio.png)
 
 ###  Transaction History
 ![Trade History](transaction-history.png)
