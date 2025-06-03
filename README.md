@@ -10,7 +10,7 @@ It empowers users to:
 
 ---
 
-##  Tech Stack Used
+## Tech Stack Used
 
 | Layer       | Technology/Tool                     | Purpose                                  |
 |-------------|--------------------------------------|-------------------------------------------|
