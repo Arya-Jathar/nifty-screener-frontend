@@ -37,7 +37,7 @@ function App() {
       if (portfolio.length === 0) return;
       const tickers = portfolio.map(p => p.ticker).join(',');
       try {
-        const res = await fetch(`${API_BASE_URL}/get_prices?tickers=${tickers}`);
+        const res = await fetch(`<span class="math-inline">\{API\_BASE\_URL\}/get\_prices?tickers\=</span>{tickers}`);
         const data = await res.json();
         setLivePrices(data);
       } catch (err) {
@@ -50,7 +50,7 @@ function App() {
   const fetchStockData = async () => {
     if (!selectedStock) return alert("Please select a stock!");
     try {
-      const res = await fetch(`${API_BASE_URL}/get_prices?tickers=${selectedStock}`);
+      const res = await fetch(`<span class="math-inline">\{API\_BASE\_URL\}/get\_stock\_data?ticker\=</span>{selectedStock}`);
       const data = await res.json();
       setStockData(data);
     } catch (err) {
