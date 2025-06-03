@@ -176,7 +176,7 @@ Click export buttons to download data as CSV:
 
 ##  Author & Credits
 
-** Arya Jathar**  
+**Arya Jathar**  
 Built this app by integrating React + FastAPI with the help of ChatGPT & Claude.  
 Understands all components, calculations, and design decisions.
 
