@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import.meta.env.VITE_BACKEND_URL
 
 function App() {
   const [selectedStock, setSelectedStock] = useState('');
