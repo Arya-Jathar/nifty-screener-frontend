@@ -176,8 +176,6 @@ Click export buttons to download data as CSV:
 
 ## SCREENSHOTS:
 
-## 📸 Screenshots
-
 ###  Stock Selection
 ![Stock Selection](stock-selection.png)
 
