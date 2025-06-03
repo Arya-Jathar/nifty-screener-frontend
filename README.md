@@ -182,7 +182,7 @@ Click export buttons to download data as CSV:
 ###  Buy Signal Triggered
 ![Buy Signal](buy-signal.png)
 
-### 💼 Portfolio Table
+###  Portfolio Table
 ![Portfolio Table](Portfolio.png)
 
 ###  Transaction History
