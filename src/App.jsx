@@ -8,7 +8,6 @@ function App() {
   const [tradeHistory, setTradeHistory] = useState([]);
   const [livePrices, setLivePrices] = useState({});
   const [darkMode, setDarkMode] = useState(false);
-  const API_BASE_URL="https://nifty-screener-backend.onrender.com";
   const NIFTY_50 = [
     "RELIANCE.NS", "TCS.NS", "INFY.NS", "HDFCBANK.NS", "ICICIBANK.NS",
     "SBIN.NS", "ITC.NS", "LT.NS", "KOTAKBANK.NS", "HINDUNILVR.NS"
@@ -37,7 +36,7 @@ function App() {
       if (portfolio.length === 0) return;
       const tickers = portfolio.map(p => p.ticker).join(',');
       try {
-        const res = await fetch(`<span class="math-inline">\{API\_BASE\_URL\}/get\_prices?tickers\=</span>{tickers}`);
+        const res = await fetch(`http://127.0.0.1:8000/get_prices?tickers=${tickers}`);
         const data = await res.json();
         setLivePrices(data);
       } catch (err) {
@@ -50,7 +49,7 @@ function App() {
   const fetchStockData = async () => {
     if (!selectedStock) return alert("Please select a stock!");
     try {
-      const res = await fetch(`<span class="math-inline">\{API\_BASE\_URL\}/get\_stock\_data?ticker\=</span>{selectedStock}`);
+      const res = await fetch(`http://127.0.0.1:8000/get_prices?tickers=${tickers}`);
       const data = await res.json();
       setStockData(data);
     } catch (err) {
